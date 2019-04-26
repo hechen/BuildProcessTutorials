@@ -34,7 +34,10 @@ You can just remove redundant paths info to see how the command-line tools are u
 
 swift is the same as swiftc, I supposed. As [swift vs. swiftc](https://owensd.io/2015/01/14/swift-vs-swiftc/) described.
 
+``` Shell
 // 1.  compiler
 swift -frontend -c main.swift -module-name main -o main.o
+
 // 2.  linker
 ld main.o xxxxxxxx -o main
+```

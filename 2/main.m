@@ -8,8 +8,8 @@
 
 #import "Foo.h"
 
+int main() {
     Foo *foo = [[Foo alloc] init];
     [foo hello];
-
     return 0;
 }

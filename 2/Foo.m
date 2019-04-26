@@ -11,7 +11,7 @@
 @implementation Foo
 
 - (void)hello {
-    printf("Hello world again");
+    printf("Hello world again\n");
 }
 
 @end

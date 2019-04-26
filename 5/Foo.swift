@@ -1,5 +1,6 @@
 public class Foo {
-    func run() {
+    public init() {}
+    public func run() {
         print("Hello world again.")        
     }
 }
